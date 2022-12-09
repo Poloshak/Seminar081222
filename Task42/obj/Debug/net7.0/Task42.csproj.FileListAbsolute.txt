@@ -1,0 +1,15 @@
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/bin/Debug/net7.0/Task42
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/bin/Debug/net7.0/Task42.deps.json
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/bin/Debug/net7.0/Task42.runtimeconfig.json
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/bin/Debug/net7.0/Task42.dll
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/bin/Debug/net7.0/Task42.pdb
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.csproj.AssemblyReference.cache
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.GeneratedMSBuildEditorConfig.editorconfig
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.AssemblyInfoInputs.cache
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.AssemblyInfo.cs
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.csproj.CoreCompileInputs.cache
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.dll
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/refint/Task42.dll
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.pdb
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/Task42.genruntimeconfig.cache
+/Users/monstruz/Desktop/Geekbrains/Seminar081222/Task42/obj/Debug/net7.0/ref/Task42.dll
