@@ -10,12 +10,13 @@ KoordinatyTochkiPeresecheniya(K);
 
 double KoordinatyTochkiPeresecheniya (string[] koord)
 {
-    Console.WriteLine($"{int.Parse(koord[0])}; {int.Parse(koord[1])}; {int.Parse(koord[2])}; {int.Parse(koord[3])}");
-    double x = (int.Parse(koord[2]) - int.Parse(koord[0])) / (int.Parse(koord[1]) - int.Parse(koord[3]));
-    Console.WriteLine($"{x}");
-    double y = int.Parse(koord[1]) * x + int.Parse(koord[0]);
+    double b1 = int.Parse(koord[0]);
+    double k1 = int.Parse(koord[1]);
+    double b2 = int.Parse(koord[2]);
+    double k2 = int.Parse(koord[3]);
+    double x = (b2-b1)/(k1-k2);
+    double y = k1*x+b1;
     Console.WriteLine($"Координаты точки пересечения ({x}; {y})");
     return x;
     return y;
-    
 }
