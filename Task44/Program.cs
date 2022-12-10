@@ -12,20 +12,17 @@
 // </aside>
 
 
-Console.Clear();
-
-int n = 7;
-
 int [] Fib(int n)
 {
     int a = 0;
     int b = 1;
+    int c = 0;
     int [] fi = new int[n];
     fi[0] = 0;
     for(int i = 1; i<n; i++)
     {
         
-        int c= a+b;
+        c= a+b; //нужно определить вне цикла
         a=b;
         b=c;
         fi[i] = a;
@@ -33,6 +30,10 @@ int [] Fib(int n)
     }
     return fi;
 }
+
+Console.Clear();
+
+int n = 7;
 
 int[] fibanacci = Fib(n);
 Console.WriteLine(String.Join(" ",fibanacci));
