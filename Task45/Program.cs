@@ -21,16 +21,16 @@ int[] FillArray (int[] arr)
 {
     int i=0;
     while(i<arr.Length)
-    {
-    arr[i] = new Random().Next(10,100);
-    i++;
+    {   
+        arr[i] = new Random().Next(10,100);
+        i++;
     }
     Console.WriteLine(String.Join(" ", arr));
     return arr;
 }
 
-Console.Clear();
-int[] array = new int [10];
-FillArray(array);
-MassiveCopy(array);
+ Console.Clear();
+ int[] array = new int [10];
+ FillArray(array);
+ MassiveCopy(array);
 
