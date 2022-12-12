@@ -13,6 +13,7 @@ Console.Clear();
 int[] array = GetArray(10, 0, 10);
 Console.WriteLine(String.Join(" ", array));
 
+
 int[] reversArray = ReversArray2(array);
 Console.WriteLine(String.Join(" ", reversArray));
 

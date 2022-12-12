@@ -5,15 +5,15 @@
 
 int[] MassiveCopy(int[] arr)
 {
-    int[] newarr = new int [arr.Length];
+    int[] newarr = new int[arr.Length];
     int i = 0;
     int j = 0;
-    while(i<arr.Length)
+    while (i < arr.Length)
     {
         newarr[j] = arr[i];
         i++;
-    } 
-    Console.WriteLine($"Копия массива: {String.Join(" ", arr)}");
+    }
+    Console.WriteLine($"Копия массива: \n{String.Join(" ", arr)}");
     return newarr;
 }
 
