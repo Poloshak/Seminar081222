@@ -25,25 +25,48 @@ void PrintArray(int[,] inArray)
     }
 }
 
+
+int[,] MatrixProizvedenie(int[,] arrA, int[,] arrB)
+{
+    int[,] arrayProizvedenie = new int[arrA.GetLength(0), arrB.GetLength(1)];
+
+    for (int i = 0; i < arrayProizvedenie.GetLength(0); i++)
+    {
+        for (int j = 0; j < arrayProizvedenie.GetLength(1); j++)
+        {
+            int sum = 0;
+            for (int n = 0; n < arrB.GetLength(1) - 1; n++)
+            {
+                sum = sum + arrA[i, n] * arrB[n, j];
+            }
+            arrayProizvedenie[i, j] = sum;
+        }
+    }
+
+    return arrayProizvedenie;
+}
+
+
 Console.Write("Введите количество строк массива1: ");
-int rows1=int.Parse(Console.ReadLine());
+int rows1 = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов массива1: ");
-int columns1=int.Parse(Console.ReadLine());
+int columns1 = int.Parse(Console.ReadLine());
 Console.Write("Введите количество строк массива2: ");
-int rows2=int.Parse(Console.ReadLine());
+int rows2 = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов массива2: ");
-int columns2=int.Parse(Console.ReadLine());
-int[,]array1 = GetArray(rows1,columns1, 5, 15);
+int columns2 = int.Parse(Console.ReadLine());
+int[,] array1 = GetArray(rows1, columns1, 0, 5);
 PrintArray(array1);
 Console.WriteLine();
-int[,]array2 = GetArray(rows2,columns2, -5, 5);
+int[,] array2 = GetArray(rows2, columns2, 0, 5);
 PrintArray(array2);
-if(columns1!=rows2) Console.WriteLine("Матрицы умножить нельзя");
-int[,]arrayProizvedenie = new int [rows1,columns2];
-for(int i = 0; i<arrayProizvedenie.GetLength(0); i++)
+Console.WriteLine();
+if (columns1==rows2)
 {
-    for(int j = 0; j<arrayProizvedenie.GetLength(1); j++)
-    {
-        arrayProizvedenie[i,j]=
-    }
+int[,] array3 = MatrixProizvedenie(array1, array2);
+PrintArray(array3);
 }
+else Console.WriteLine("Матрицы умножить нельзя"); 
+
+
+
